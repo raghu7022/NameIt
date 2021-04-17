@@ -1,0 +1,24 @@
+.result-name-card {
+    color: rgb(79, 250, 0);
+    background: rosybrown;
+    margin: 10px 15px;
+    min-width: 75px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background 0.5s;
+    display: flex;
+    justify-content: center;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.result-name-card:hover {
+    background: salmon;
+}
+
+.result-name {
+    margin: 0;
+    font-weight: bolder;
+}
