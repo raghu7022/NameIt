@@ -16,7 +16,7 @@ const Header = ({ headTitle, headerExpanded }) => {
             <h1
                 className={`head-text ${headerExpanded
                     ? 'head-text-expanded'
-                    : 'head-text-contraced'
+                    : 'head-text-contracted'
                     }`}
             > {headTitle}</h1>
         </div>
